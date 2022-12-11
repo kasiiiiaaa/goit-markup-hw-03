@@ -1,0 +1,142 @@
+body {
+  font-family: "Roboto";
+  color: var(--six-color);
+}
+:root {
+  --brand-color: #2f303a;
+  --secondary-color: #2196f3;
+  --tertiary-color: #000000;
+  --quaternary-color: #ffffff;
+  --five-color: #757575;
+  --six-color: #212121;
+}
+.button-class {
+  cursor: pointer;
+  text-align: center;
+  color: var(--quaternary-color);
+  background-color: var(--secondary-color);
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.lorem-ipsum {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+}
+.web-footer {
+  font-family: "Raleway";
+  margin-bottom: 161px;
+  margin-left: 215px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--quaternary-color);
+}
+.web-header {
+  font-family: "Raleway";
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.span-class {
+  color: var(--secondary-color);
+}
+.footer-class {
+  list-style-type: none;
+  color: var(--quaternary-color);
+  background-color: var(--brand-color);
+  width: 1600px;
+  height: 252px;
+  text-decoration: none;
+}
+.underline-none {
+  text-decoration: none;
+}
+.address-class {
+  margin-left: 215px;
+  margin-bottom: 60px;
+}
+.header-class {
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 215px;
+  display: flex;
+}
+.link-color-class {
+  color: var(--five-color);
+  text-decoration: none;
+}
+.link-color-class:focus {
+  color: var(--secondary-color);
+}
+.link-color-class:hover {
+  color: var(--secondary-color);
+}
+.link-color {
+  color: inherit;
+  text-decoration: none;
+}
+.link-color:focus {
+  color: var(--secondary-color);
+}
+.link-color:hover {
+  color: var(--secondary-color);
+}
+.effect {
+  color: var(--quaternary-color);
+  background-color: var(--brand-color);
+  width: 1600px;
+  height: 600px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  padding-top: 200px;
+}
+.effect-size {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+}
+.h2-class {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: inherit;
+}
+.workers-size {
+  font-size: 16px;
+}
+.p-class {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--five-color);
+}
+.lorem-ipsum {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+}
+.p-size {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--five-color);
+}
+.h3-class {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: inherit;
+}
+.h3-size {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
