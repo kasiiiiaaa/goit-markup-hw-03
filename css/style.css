@@ -51,7 +51,6 @@ body {
   list-style-type: none;
   color: var(--quaternary-color);
   background-color: var(--brand-color);
-  width: 1600px;
   height: 252px;
   text-decoration: none;
 }
@@ -68,6 +67,8 @@ body {
   margin-left: 215px;
   display: flex;
   justify-content: space-between;
+  width: 1600px;
+  height: 80px;
 }
 .link-color-class {
   color: var(--five-color);
@@ -113,6 +114,7 @@ body {
 }
 .workers-size {
   font-size: 16px;
+  max-width: 1600px;
 }
 .p-class {
   font-size: 14px;
@@ -143,9 +145,14 @@ body {
 }
 .flex-class {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .padding-class {
   padding-right: 500px;
   margin-left: 20px;
+}
+.container {
+  max-width: 1552px;
+  margin: auto;
+  padding: 24px;
 }
