@@ -67,6 +67,7 @@ body {
   list-style-type: none;
   margin-left: 215px;
   display: flex;
+  justify-content: space-between;
 }
 .link-color-class {
   color: var(--five-color);
@@ -139,4 +140,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+}
+.flex-class {
+  display: flex;
+  justify-content: space-evenly;
+}
+.padding-class {
+  padding-right: 500px;
+  margin-left: 20px;
 }
