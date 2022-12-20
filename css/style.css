@@ -9,6 +9,7 @@ body {
   --quaternary-color: #ffffff;
   --five-color: #757575;
   --six-color: #212121;
+  --seven-color: #f5f4fa;
 }
 .button-class {
   cursor: pointer;
@@ -19,6 +20,22 @@ body {
   height: 50px;
   border-radius: 4px;
   font-size: 16px;
+}
+.button-class-2 {
+  cursor: pointer;
+  text-align: center;
+  color: var(--six-color);
+  background-color: var(--seven-color);
+  width: 91px;
+  height: 38px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.button-class-2:hover {
+  background-color: var(--secondary-color);
+}
+.button-class-2:focus {
+  background-color: var(--secondary-color);
 }
 .lorem-ipsum {
   display: flex;
@@ -43,6 +60,8 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .span-class {
   color: var(--secondary-color);
@@ -51,8 +70,11 @@ body {
   list-style-type: none;
   color: var(--quaternary-color);
   background-color: var(--brand-color);
+  width: 1600px;
   height: 252px;
   text-decoration: none;
+  padding-top: 60px;
+  justify-content: center;
 }
 .underline-none {
   text-decoration: none;
@@ -111,6 +133,9 @@ body {
   line-height: 1.17;
   text-align: center;
   color: inherit;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  justify-content: center;
 }
 .workers-size {
   font-size: 16px;
@@ -127,6 +152,16 @@ body {
   text-decoration: none;
   list-style-type: none;
 }
+.lorem-ipsum-2 {
+  margin-top: 94px;
+  margin-left: 215px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style-type: none;
+  width: 1170px;
+  height: 195px;
+}
 .p-size {
   font-size: 16px;
   line-height: 1.19;
@@ -138,6 +173,15 @@ body {
   line-height: 1.14;
   color: inherit;
 }
+.h2-class-2 {
+  background-color: var(--seven-color);
+  width: 1600px;
+  height: 648px;
+  padding-top: 60px;
+  padding-bottom: 94px;
+  margin-right: 100px;
+  justify-content: center;
+}
 .h3-size {
   font-weight: 500;
   font-size: 16px;
@@ -147,9 +191,17 @@ body {
   display: flex;
   justify-content: center;
 }
+.flex-line {
+  display: block;
+  justify-content: center;
+}
 .padding-class {
   padding-right: 500px;
   margin-left: 20px;
+}
+.padding-class-2 {
+  padding-right: 46px;
+  margin-left: 46px;
 }
 .container {
   max-width: 1552px;
