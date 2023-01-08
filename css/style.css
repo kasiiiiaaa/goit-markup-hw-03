@@ -1,8 +1,10 @@
+* {
+  margin-left: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto";
   color: var(--six-color);
-  margin: 0;
-  padding: 0;
 }
 :root {
   --brand-color: #2f303a;
@@ -19,9 +21,12 @@ body {
   color: var(--quaternary-color);
   background-color: var(--secondary-color);
   width: 200px;
-  height: 50px;
   border-radius: 4px;
   font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: auto;
 }
 .button-class-2 {
   cursor: pointer;
@@ -29,10 +34,12 @@ body {
   color: var(--six-color);
   background-color: var(--seven-color);
   width: 91px;
-  height: 38px;
   border-radius: 4px;
   font-size: 16px;
-  margin: 8px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .button-class-2:hover {
   background-color: var(--secondary-color);
@@ -63,8 +70,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 40px;
 }
 .span-class {
   color: var(--secondary-color);
@@ -74,17 +80,20 @@ body {
   color: var(--quaternary-color);
   background-color: var(--brand-color);
   width: 1600px;
-  height: 252px;
   text-decoration: none;
   padding-top: 60px;
+  padding-bottom: 60px;
   justify-content: center;
 }
 .underline-none {
   text-decoration: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 .address-class {
   margin-left: 215px;
   margin-bottom: 60px;
+  margin-top: 30px;
 }
 .header-class {
   text-decoration: none;
@@ -93,7 +102,8 @@ body {
   display: flex;
   justify-content: space-between;
   width: 1600px;
-  height: 80px;
+  padding-top: 25px;
+  padding-bottom: 24px;
 }
 .link-color-class {
   color: var(--five-color);
@@ -119,12 +129,15 @@ body {
   color: var(--quaternary-color);
   background-color: var(--brand-color);
   width: 1600px;
-  height: 600px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   text-align: center;
   padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: 215px;
+  display: flex;
+  justify-content: center;
 }
 .effect-size {
   font-weight: 900;
@@ -136,8 +149,8 @@ body {
   line-height: 1.17;
   text-align: center;
   color: inherit;
-  margin-bottom: 50px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 50px;
   justify-content: center;
 }
 .workers-size {
@@ -146,8 +159,9 @@ body {
 }
 .p-class {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7;
   color: var(--five-color);
+  margin-right: 40px;
 }
 .lorem-ipsum {
   display: flex;
@@ -162,8 +176,9 @@ body {
   justify-content: center;
   text-decoration: none;
   list-style-type: none;
-  width: 1170px;
-  height: 195px;
+  width: 1200px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 .p-size {
   font-size: 16px;
@@ -179,10 +194,18 @@ body {
 .h2-class-2 {
   background-color: var(--seven-color);
   width: 1600px;
-  height: 648px;
-  padding-top: 60px;
+  padding-top: 94px;
   padding-bottom: 94px;
-  margin-right: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+  justify-content: center;
+}
+.h2-class-3 {
+  width: 1600px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-right: 100px;
+  padding-left: 100px;
   justify-content: center;
 }
 .h3-size {
@@ -190,9 +213,10 @@ body {
   font-size: 16px;
   line-height: 1.19;
 }
-.flex-class {
+.section {
   display: flex;
   justify-content: center;
+  padding: 94px 0;
 }
 .flex-line {
   display: block;
@@ -201,17 +225,28 @@ body {
 .padding-class {
   padding-right: 500px;
   margin-left: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .padding-class-2 {
   padding-right: 46px;
   margin-left: 46px;
 }
 .container {
-  max-width: 1552px;
-  margin: auto;
+  width: 1200px;
+  margin: 0 auto;
   padding: 24px;
 }
 .figure-class {
   margin: 30px;
-  padding: 30px;
+  padding-right: 30px;
+}
+.figure-class-2 {
+  justify-content: center;
+  margin: 30px;
+  padding-right: 30px;
+}
+.padding-nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
