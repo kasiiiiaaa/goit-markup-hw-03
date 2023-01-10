@@ -98,7 +98,6 @@ body {
 .header-class {
   text-decoration: none;
   list-style-type: none;
-  margin-left: 215px;
   display: flex;
   justify-content: space-between;
 }
