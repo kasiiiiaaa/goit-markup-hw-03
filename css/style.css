@@ -14,6 +14,7 @@ body {
   --five-color: #757575;
   --six-color: #212121;
   --seven-color: #f5f4fa;
+  --eight-color: #ffffff99;
 }
 .button-class {
   cursor: pointer;
@@ -81,9 +82,12 @@ body {
   list-style-type: none;
   color: var(--quaternary-color);
   background-color: var(--brand-color);
+  margin: 0 auto;
+  display: flex;
+  max-width: 1600px;
   text-decoration: none;
   padding-top: 60px;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
   justify-content: center;
 }
 .underline-none {
@@ -92,6 +96,7 @@ body {
   padding-bottom: 9px;
 }
 .address-class {
+  list-style: none;
   margin-left: 215px;
   margin-bottom: 60px;
   margin-top: 30px;
@@ -139,6 +144,7 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  max-width: 1600px;
 }
 .effect-size {
   font-weight: 900;
@@ -161,13 +167,14 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: var(--five-color);
-  margin-right: 40px;
+  margin: 10px;
 }
 .lorem-ipsum-2 {
   display: flex;
   justify-content: center;
   text-decoration: none;
   list-style-type: none;
+  column-gap: 30px;
 }
 .lorem-ipsum-class {
   display: flex;
@@ -185,12 +192,16 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: inherit;
+  margin: 10px;
 }
 .h2-class-2 {
   background-color: var(--seven-color);
+  max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   justify-content: center;
+  margin: 0 auto;
+  display: flex;
 }
 .h2-class-3 {
   padding-top: 94px;
@@ -201,6 +212,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-bottom: 10px;
 }
 .section {
   padding: 94px 0;
@@ -213,13 +225,20 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-.figure-class {
-  margin: 30px;
-}
-.figure-class-2 {
-  justify-content: center;
-  margin: 30px;
-}
 .first-section-container {
   padding: 112px 0px;
+}
+.second-container {
+  margin-top: -93px;
+}
+.img-center {
+  display: block;
+  text-align: center;
+}
+.footer-color {
+  color: var(--eight-color);
+}
+.footer-container {
+  padding-right: 93px;
+  margin-left: -30px;
 }
