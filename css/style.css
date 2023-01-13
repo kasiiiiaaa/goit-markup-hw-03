@@ -84,10 +84,8 @@ body {
   background-color: var(--brand-color);
   margin: 0 auto;
   display: flex;
-  max-width: 1600px;
   text-decoration: none;
   padding-top: 60px;
-  margin-bottom: 60px;
   justify-content: center;
 }
 .underline-none {
@@ -98,7 +96,6 @@ body {
 .address-class {
   list-style: none;
   margin-left: 215px;
-  margin-bottom: 60px;
   margin-top: 30px;
 }
 .header-class {
@@ -144,7 +141,6 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  max-width: 1600px;
 }
 .effect-size {
   font-weight: 900;
@@ -196,7 +192,6 @@ body {
 }
 .h2-class-2 {
   background-color: var(--seven-color);
-  max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   justify-content: center;
@@ -234,6 +229,8 @@ body {
 .img-center {
   display: block;
   text-align: center;
+  box-shadow: #ffffff;
+  background-color: #ffffff;
 }
 .footer-color {
   color: var(--eight-color);
