@@ -35,13 +35,11 @@ body {
   text-align: center;
   color: var(--six-color);
   background-color: var(--seven-color);
-  width: 91px;
   border-radius: 4px;
-  font-size: 16px;
-  margin-top: 94px;
-  margin-bottom: 50px;
   padding-top: 6px;
   padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 .button-class-2:hover {
   background-color: var(--secondary-color);
@@ -51,7 +49,7 @@ body {
 }
 .lorem-ipsum {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   text-decoration: none;
   list-style-type: none;
   column-gap: 30px;
@@ -86,6 +84,7 @@ body {
   text-decoration: none;
   padding-top: 60px;
   justify-content: center;
+  margin-top: -20px;
 }
 .underline-none {
   text-decoration: none;
@@ -239,4 +238,7 @@ body {
 .footer-container {
   padding-right: 93px;
   margin-right: 900px;
+}
+.img-class {
+  margin-top: -120px;
 }
