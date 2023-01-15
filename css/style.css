@@ -157,6 +157,11 @@ body {
 .workers-size {
   font-size: 16px;
 }
+.p-class-2 {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--five-color);
+}
 .p-class {
   font-size: 14px;
   line-height: 1.7;
@@ -188,6 +193,13 @@ body {
   line-height: 1.14;
   color: inherit;
   margin: 10px;
+}
+.h3-class-2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: inherit;
+  margin-bottom: 10px;
 }
 .h2-class-2 {
   background-color: var(--seven-color);
@@ -229,8 +241,8 @@ body {
 .img-center {
   display: block;
   text-align: center;
-  box-shadow: #ffffff;
-  background-color: #ffffff;
+  box-shadow: var(--quaternary-color);
+  background-color: var(--quaternary-color);
 }
 .footer-color {
   color: var(--eight-color);
