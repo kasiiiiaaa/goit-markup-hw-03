@@ -193,6 +193,8 @@ body {
   line-height: 1.14;
   color: inherit;
   margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .h3-class-2 {
   font-weight: 700;
@@ -241,6 +243,11 @@ body {
 .img-center {
   display: block;
   text-align: center;
+  box-shadow: var(--quaternary-color);
+  background-color: var(--quaternary-color);
+}
+.img-center-2 {
+  display: block;
   box-shadow: var(--quaternary-color);
   background-color: var(--quaternary-color);
 }
