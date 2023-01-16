@@ -56,7 +56,6 @@ body {
 }
 .web-footer {
   font-family: "Raleway";
-  margin-left: 215px;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -93,8 +92,8 @@ body {
 }
 .address-class {
   list-style: none;
-  margin-left: 215px;
   margin-top: 30px;
+  font-style: normal;
 }
 .header-class {
   text-decoration: none;
@@ -254,10 +253,9 @@ body {
 .footer-color {
   color: var(--eight-color);
 }
-.footer-container {
-  padding-right: 93px;
-  margin-right: 900px;
-}
 .img-class {
   margin-top: -120px;
+}
+.img-2 {
+  vertical-align: bottom;
 }
