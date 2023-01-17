@@ -15,6 +15,7 @@ body {
   --six-color: #212121;
   --seven-color: #f5f4fa;
   --eight-color: #ffffff99;
+  --nine-color: #eeeeee;
 }
 .button-class {
   cursor: pointer;
@@ -35,11 +36,11 @@ body {
   text-align: center;
   color: var(--six-color);
   background-color: var(--seven-color);
-  border-radius: 4px;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
+  font-weight: bold;
 }
 .button-class-2:hover {
   background-color: var(--secondary-color);
@@ -84,6 +85,7 @@ body {
   padding-top: 60px;
   justify-content: center;
   margin-top: -20px;
+  padding-bottom: 60px;
 }
 .underline-none {
   text-decoration: none;
@@ -249,6 +251,9 @@ body {
   display: block;
   box-shadow: var(--quaternary-color);
   background-color: var(--quaternary-color);
+  border-right: 1px solid var(--nine-color);
+  border-left: 1px solid var(--nine-color);
+  border-bottom: 1px solid var(--nine-color);
 }
 .footer-color {
   color: var(--eight-color);
