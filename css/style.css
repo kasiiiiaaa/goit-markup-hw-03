@@ -16,31 +16,91 @@ body {
   --seven-color: #f5f4fa;
   --eight-color: #ffffff99;
   --nine-color: #eeeeee;
+  --ten-color: #ececec;
 }
-.button-class {
-  cursor: pointer;
+.web-header {
+  margin-right: 93px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+.header-class {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+  border-bottom: 1px solid var(--ten-color);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 32px 0px;
+}
+.section {
+  padding: 94px 0;
+}
+.section-2 {
+  padding: 160px 0;
+}
+.section-3 {
+  padding: 0px 0;
+}
+.effect {
+  display: flex;
+  justify-content: center;
+  padding-top: 165px;
+  padding-bottom: 165px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
   text-align: center;
   color: var(--quaternary-color);
-  background-color: var(--secondary-color);
-  width: 200px;
-  border-radius: 4px;
-  font-size: 16px;
+  background-color: var(--brand-color);
+}
+.effect-size {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+}
+.h2-class {
+  display: block;
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: inherit;
+}
+.button-class {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 30px;
   margin-bottom: auto;
+  width: 200px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--quaternary-color);
+  background-color: var(--secondary-color);
+  border-radius: 4px;
   border: none;
 }
 .button-class-2 {
   cursor: pointer;
-  text-align: center;
-  color: var(--six-color);
-  background-color: var(--seven-color);
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
   font-weight: bold;
+  text-align: center;
+  color: var(--six-color);
+  background-color: var(--seven-color);
 }
 .button-class-2:hover {
   background-color: var(--secondary-color);
@@ -48,12 +108,33 @@ body {
 .button-class-2:focus {
   background-color: var(--secondary-color);
 }
-.lorem-ipsum {
+ul {
+  list-style: none;
+}
+.flex-center {
   display: flex;
   justify-content: center;
+  column-gap: 30px;
+  text-decoration: none;
+}
+.flex {
+  font-size: 16px;
+  font-weight: 500;
+}
+.flex-center-2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
   text-decoration: none;
   list-style-type: none;
-  column-gap: 30px;
+}
+.flex-center-class {
+  display: flex;
+  margin-left: auto;
+  column-gap: 50px;
+}
+.font-weight {
+  font-weight: 500px;
 }
 .web-footer {
   font-family: "Raleway";
@@ -63,50 +144,44 @@ body {
   text-decoration: none;
   color: var(--quaternary-color);
 }
-.web-header {
-  font-family: "Raleway";
+.footer-class {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  padding-top: 60px;
   text-decoration: none;
-  color: var(--tertiary-color);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  margin-right: 93px;
+  list-style-type: none;
+  color: var(--quaternary-color);
+  background-color: var(--brand-color);
+}
+.footer-color {
+  color: var(--eight-color);
+}
+.address-class {
+  margin-top: 30px;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.first-section-container {
+  padding: 112px 0px;
+}
+.second-container {
+  margin-top: -93px;
 }
 .span-class {
   color: var(--secondary-color);
 }
-.footer-class {
-  list-style-type: none;
-  color: var(--quaternary-color);
-  background-color: var(--brand-color);
-  margin: 0 auto;
-  display: flex;
-  text-decoration: none;
-  padding-top: 60px;
-  justify-content: center;
-  margin-top: -20px;
-  padding-bottom: 60px;
-}
 .underline-none {
-  text-decoration: none;
   padding-top: 9px;
   padding-bottom: 9px;
-}
-.address-class {
-  list-style: none;
-  margin-top: 30px;
-  font-style: normal;
-}
-.header-class {
   text-decoration: none;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-}
-.header-container {
-  display: flex;
-  align-items: center;
-  padding: 32px 0px;
 }
 .link-color-class {
   color: var(--five-color);
@@ -128,118 +203,62 @@ body {
 .link-color:hover {
   color: var(--secondary-color);
 }
-.effect {
-  color: var(--quaternary-color);
-  background-color: var(--brand-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  text-align: center;
-  padding-top: 165px;
-  padding-bottom: 165px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
-.effect-size {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.37;
-}
-.h2-class {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: inherit;
-  padding-top: 0px;
-  padding-bottom: 50px;
-  justify-content: center;
-}
 .workers-size {
   font-size: 16px;
 }
 .p-class-2 {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--five-color);
 }
 .p-class {
-  font-size: 14px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1.7;
   color: var(--five-color);
-  margin: 10px;
-}
-.lorem-ipsum-2 {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  list-style-type: none;
-  column-gap: 30px;
-}
-.lorem-ipsum-class {
-  display: flex;
-  column-gap: 50px;
-  list-style: none;
-  margin-left: auto;
 }
 .p-size {
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   color: var(--five-color);
-  padding-bottom: 30px;
 }
 .h3-class {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  color: inherit;
   margin: 10px;
   margin-top: 20px;
   margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.14;
+  color: inherit;
 }
 .h3-class-2 {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: inherit;
-  margin-bottom: 10px;
 }
 .h2-class-2 {
-  background-color: var(--seven-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  display: flex;
   justify-content: center;
   margin: 0 auto;
-  display: flex;
-}
-.h2-class-3 {
   padding-top: 94px;
   padding-bottom: 94px;
-  justify-content: center;
+  background-color: var(--seven-color);
 }
 .h3-size {
+  margin-bottom: 10px;
+  padding-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 10px;
-  padding-top: 30px;
-}
-.section {
-  padding: 94px 0;
 }
 .flex-line {
   display: block;
   justify-content: center;
-}
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-.first-section-container {
-  padding: 112px 0px;
-}
-.second-container {
-  margin-top: -93px;
 }
 .img-center {
   display: block;
@@ -254,9 +273,6 @@ body {
   border-right: 1px solid var(--nine-color);
   border-left: 1px solid var(--nine-color);
   border-bottom: 1px solid var(--nine-color);
-}
-.footer-color {
-  color: var(--eight-color);
 }
 .img-class {
   margin-top: -120px;
