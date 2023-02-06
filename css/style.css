@@ -107,6 +107,7 @@ body {
 }
 .flex {
   font-weight: 500;
+  padding-bottom: 50px;
 }
 .flex-center-2 {
   display: flex;
@@ -255,4 +256,9 @@ body {
 }
 .img-2 {
   vertical-align: bottom;
+}
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
