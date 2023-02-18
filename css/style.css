@@ -132,7 +132,6 @@ body {
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: -20px;
   padding-bottom: 60px;
   margin: 0 auto;
   padding-top: 60px;
@@ -252,9 +251,6 @@ body {
   margin-bottom: 30px;
 }
 .img-1 {
-  margin-top: -120px;
-}
-.img-2 {
   vertical-align: bottom;
 }
 .card-image {
