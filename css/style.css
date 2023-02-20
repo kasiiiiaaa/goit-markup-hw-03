@@ -25,6 +25,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.3px;
   text-decoration: none;
   color: var(--black-color);
 }
@@ -46,9 +47,6 @@ body {
   padding: 0;
 }
 .effect {
-  margin: 0 auto;
-  font-weight: 700;
-  line-height: 1.875;
   text-align: center;
   color: var(--white-color);
   background-color: var(--brand-color);
@@ -58,15 +56,15 @@ body {
   font-size: 44px;
   line-height: 1.37;
   padding: 0px 300px;
+  letter-spacing: 1.9px;
 }
 .heading {
-  padding-top: 0px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: inherit;
+  letter-spacing: 0.3px;
 }
 .button-1 {
   padding-top: 10px;
@@ -74,6 +72,8 @@ body {
   margin-top: 30px;
   margin-bottom: auto;
   width: 200px;
+  letter-spacing: 0.6px;
+  line-height: 1.875;
   cursor: pointer;
   text-align: center;
   color: var(--white-color);
@@ -83,13 +83,15 @@ body {
 }
 .button-2 {
   cursor: pointer;
-  padding: 8px 22px;
+  padding: 6px 22px;
   margin: -10px;
   border-radius: 4px;
   font-weight: 500;
   text-align: center;
   color: var(--dark-grey-color);
   background-color: var(--light-blue-color);
+  letter-spacing: 0.3px;
+  line-height: 1.675;
 }
 .button-2:hover {
   background-color: var(--secondary-color);
@@ -101,25 +103,24 @@ body {
   display: flex;
   justify-content: center;
   column-gap: 30px;
-  text-decoration: none;
 }
 .flex {
-  font-weight: 500;
   padding-bottom: 50px;
 }
 .flex-center-2 {
   display: flex;
   justify-content: center;
   column-gap: 30px;
-  text-decoration: none;
 }
 .flex-center-1 {
   display: flex;
   margin-left: auto;
   column-gap: 50px;
+  color: var(--grey-color);
 }
 .appearance {
   font-weight: 500;
+  letter-spacing: 0.2px;
 }
 .web-footer {
   font-family: "Raleway";
@@ -135,9 +136,9 @@ body {
   padding-bottom: 60px;
   margin: 0 auto;
   padding-top: 60px;
-  text-decoration: none;
   color: var(--white-color);
   background-color: var(--brand-color);
+  letter-spacing: 0.3px;
 }
 .footer-color {
   color: var(--canary-color);
@@ -146,6 +147,7 @@ body {
   margin-top: 30px;
   font-style: normal;
   font-size: 14px;
+  line-height: 1.914;
 }
 .container {
   width: 1200px;
@@ -160,24 +162,11 @@ body {
 .span-color {
   color: var(--secondary-color);
 }
-.underline-none {
-  padding-top: 9px;
-  padding-bottom: 9px;
-  text-decoration: none;
-}
 .link-color {
   color: var(--grey-color);
-  text-decoration: none;
-}
-.link-color:focus {
-  color: var(--secondary-color);
-}
-.link-color:hover {
-  color: var(--secondary-color);
-}
-.link-color {
   color: inherit;
   text-decoration: none;
+  font-weight: 500;
 }
 .link-color:focus {
   color: var(--secondary-color);
@@ -185,50 +174,58 @@ body {
 .link-color:hover {
   color: var(--secondary-color);
 }
-.p-2 {
+.link-color:focus {
+  color: var(--secondary-color);
+}
+.link-color:hover {
+  color: var(--secondary-color);
+}
+.portraiture-2 {
   font-size: 14px;
+  line-height: 1.9;
+  color: var(--grey-color);
+  letter-spacing: 0.3px;
+  margin: 0px 0.6px;
+}
+.portraiture {
   line-height: 1.7;
   color: var(--grey-color);
+  margin-left: 10px;
+  letter-spacing: 0.3px;
 }
-.p {
-  margin: 10px;
-  line-height: 1.7;
-  color: var(--grey-color);
-}
-.p-size {
+.portraiture-size {
   padding-bottom: 30px;
   line-height: 1.19;
   color: var(--grey-color);
+  letter-spacing: 0.3px;
 }
-.h3 {
+.headstall {
   margin-left: 10px;
-  margin-top: 20px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.14;
-  color: inherit;
+  letter-spacing: 0.6px;
 }
-.h3-2 {
+.headstall-2 {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  color: inherit;
+  padding: 0px 0.6px;
+  letter-spacing: 0.3px;
 }
-.heading-2 {
+.caption {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--light-blue-color);
 }
-.h3-size {
+.headstall-size {
   margin-bottom: 10px;
-  padding-top: 30px;
+  margin-top: 30px;
   font-weight: 500;
   line-height: 1.19;
+  letter-spacing: 0.3px;
 }
 .flex-line {
   display: block;
@@ -244,11 +241,13 @@ body {
   display: block;
   box-shadow: var(--white-color);
   background-color: var(--white-color);
-  border-top: 1px solid var(--light-grey-color);
   border-right: 1px solid var(--light-grey-color);
   border-left: 1px solid var(--light-grey-color);
   border-bottom: 1px solid var(--light-grey-color);
-  margin-bottom: 30px;
+  padding: 20px 0px;
+}
+.distance {
+  padding-bottom: 30px;
 }
 .img-1 {
   vertical-align: bottom;
@@ -265,4 +264,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
+}
+.item {
+  flex-basis: calc((100% - 90px) / 3);
 }
