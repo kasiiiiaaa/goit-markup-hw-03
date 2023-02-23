@@ -25,7 +25,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--black-color);
 }
@@ -35,7 +35,8 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  padding: 32px 0px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .section {
   padding: 94px 0;
@@ -55,8 +56,8 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
-  padding: 0px 300px;
-  letter-spacing: 1.9px;
+  padding: 0px 250px;
+  letter-spacing: 0.06em;
 }
 .heading {
   margin-bottom: 50px;
@@ -64,18 +65,17 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.03em;
 }
 .button-1 {
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 41px;
   margin-top: 30px;
-  margin-bottom: auto;
-  width: 200px;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.06em;
   line-height: 1.875;
   cursor: pointer;
-  text-align: center;
   color: var(--white-color);
   background-color: var(--secondary-color);
   border-radius: 4px;
@@ -84,13 +84,11 @@ body {
 .button-2 {
   cursor: pointer;
   padding: 6px 22px;
-  margin: -10px;
   border-radius: 4px;
   font-weight: 500;
-  text-align: center;
   color: var(--dark-grey-color);
   background-color: var(--light-blue-color);
-  letter-spacing: 0.3px;
+  letter-spacing: 0.03em;
   line-height: 1.675;
 }
 .button-2:hover {
@@ -106,6 +104,7 @@ body {
 }
 .flex {
   padding-bottom: 50px;
+  gap: 8px;
 }
 .flex-center-2 {
   display: flex;
@@ -116,11 +115,6 @@ body {
   display: flex;
   margin-left: auto;
   column-gap: 50px;
-  color: var(--grey-color);
-}
-.appearance {
-  font-weight: 500;
-  letter-spacing: 0.2px;
 }
 .web-footer {
   font-family: "Raleway";
@@ -138,7 +132,7 @@ body {
   padding-top: 60px;
   color: var(--white-color);
   background-color: var(--brand-color);
-  letter-spacing: 0.3px;
+  letter-spacing: 0.03em;
 }
 .footer-color {
   color: var(--canary-color);
@@ -163,16 +157,13 @@ body {
   color: var(--secondary-color);
 }
 .link-color {
-  color: var(--grey-color);
   color: inherit;
   text-decoration: none;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
-.link-color:focus {
-  color: var(--secondary-color);
-}
-.link-color:hover {
-  color: var(--secondary-color);
+.color-grey {
+  color: var(--grey-color);
 }
 .link-color:focus {
   color: var(--secondary-color);
@@ -184,20 +175,19 @@ body {
   font-size: 14px;
   line-height: 1.9;
   color: var(--grey-color);
-  letter-spacing: 0.3px;
+  letter-spacing: 0.03em;
   margin: 0px 0.6px;
 }
 .portraiture {
   line-height: 1.7;
   color: var(--grey-color);
   margin-left: 10px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.03em;
 }
 .portraiture-size {
-  padding-bottom: 30px;
   line-height: 1.19;
   color: var(--grey-color);
-  letter-spacing: 0.3px;
+  letter-spacing: 0.03em;
 }
 .headstall {
   margin-left: 10px;
@@ -205,7 +195,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.14;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.06em;
 }
 .headstall-2 {
   margin-bottom: 10px;
@@ -213,7 +203,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   padding: 0px 0.6px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.03em;
 }
 .caption {
   display: flex;
@@ -222,10 +212,9 @@ body {
 }
 .headstall-size {
   margin-bottom: 10px;
-  margin-top: 30px;
   font-weight: 500;
   line-height: 1.19;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.03em;
 }
 .flex-line {
   display: block;
@@ -236,6 +225,7 @@ body {
   text-align: center;
   box-shadow: var(--white-color);
   background-color: var(--white-color);
+  padding: 30px 70px;
 }
 .img-center-2 {
   display: block;
